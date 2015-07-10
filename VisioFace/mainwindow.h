@@ -2,7 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPalette>
+#include <QPixmap>
 #include <iostream>
+
 using namespace std;
 
 namespace Ui {
@@ -19,6 +22,9 @@ public:
 
 private slots:
     void on_DataBD_clicked(const QModelIndex &index);
+    void on_connect_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;

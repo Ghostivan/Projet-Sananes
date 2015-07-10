@@ -2,6 +2,7 @@
 #define VISIOFACEDB_H
 #include <QString>
 #include <QtSql/QSqlDatabase>
+
 using namespace std;
 class VisioFaceDB
 {

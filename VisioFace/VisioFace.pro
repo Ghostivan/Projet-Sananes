@@ -13,11 +13,19 @@ TEMPLATE = app
 
 RC_FILE = appicon.rc
 
+#LIBS += -L"boost/boost/libs/" -lpsapi
+
 SOURCES += main.cpp\
         mainwindow.cpp \
-    visiofacedb.cpp
+    visiofacedb.cpp \
+    formconnectwindows.cpp \
+    formsigninwindows.cpp
 
 HEADERS  += mainwindow.h \
-    visiofacedb.h
+    visiofacedb.h \
+    formconnectwindows.h \
+    formsigninwindows.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    formconnectwindows.ui \
+    formsigninwindows.ui
