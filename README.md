@@ -11,10 +11,10 @@ Logiciel de reconnaissance faciale
 
 ## Fonctionnalités
 
-- Réaliser la vue d'accueil [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)IVAN - Dimanche 12 Juillet
+- Réaliser la vue d'accueil [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN - Dimanche 12 Juillet
 - Réaliser la vue inscription [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID - Dimanche 12 Juillet
-- Réaliser la vue choisir un compte (Menu déroulant) [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) IVAN - Dimanche 12 Juillet
-- Créer la base de données [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) IVAN - Dimanche 12 Juillet
+- Réaliser la vue choisir un compte (Menu déroulant) [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png) IVAN - Dimanche 12 Juillet
+- Créer la base de données [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png) IVAN - Dimanche 12 Juillet
 - Création d'un compte avec nom du dossier + fichiers images à l'intérieur [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) IVAN - Dimanche 12 Juillet
 - Ajout d'un compte en BDD [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID - Dimanche 12 Juillet
 - Vérification d'ajout en BDD et apparaît dans la vue liste déroulante [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID - Dimanche 12 Juillet
