@@ -30,7 +30,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void readJson();
     void on_connect_clicked();
     void on_pushButton_clicked();
 
