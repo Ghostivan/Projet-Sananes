@@ -2,6 +2,17 @@
 #define FORMCONNECTWINDOWS_H
 
 #include <QDialog>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonValue>
+#include <QJsonArray>
+#include <QFile>
+#include <QDebug>
+#include <QtDebug>
+#include <iostream>
+#include <QtGui>
+#include <QStringList>
+#include <QByteArray>
 
 namespace Ui {
 class FormConnectWindows;
@@ -16,6 +27,7 @@ public:
     ~FormConnectWindows();
 
 private slots:
+    void readJson();
     void on_pushButton_clicked();
 
 private:
