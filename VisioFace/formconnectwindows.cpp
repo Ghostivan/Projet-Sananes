@@ -18,7 +18,6 @@ FormConnectWindows::~FormConnectWindows()
 
 void FormConnectWindows::on_pushButton_clicked()
 {
-
     /*
      * --- CREATION FOLDER USER WITH MAIL ---
      *  string mail = ui->textEdit->toPlainText().toUtf8().constData();

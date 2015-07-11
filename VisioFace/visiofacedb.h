@@ -2,6 +2,9 @@
 #define VISIOFACEDB_H
 #include <QString>
 #include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlError>
+#include <QDebug>
 
 using namespace std;
 class VisioFaceDB
@@ -16,6 +19,7 @@ private:
 public:
     /* Methods */
     VisioFaceDB(QString &_name, QString &_host, QString &_username, QString &_password);
+    void createUserTable();
     ~VisioFaceDB();
 };
 
