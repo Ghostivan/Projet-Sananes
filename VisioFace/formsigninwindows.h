@@ -15,6 +15,11 @@ public:
     explicit FormSignInWindows(QWidget *parent = 0);
     ~FormSignInWindows();
 
+private slots:
+    void on_btnCreerImg_clicked();
+
+    void on_btnCreate_clicked();
+
 private:
     Ui::FormSignInWindows *ui;
 };
