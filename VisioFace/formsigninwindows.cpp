@@ -44,7 +44,12 @@ void FormSignInWindows::on_btnCreate_clicked()
     {
       qDebug("non null");
       vfDatabase.createDatabase(dbname,host ,user,mdp);
-      vfDatabase.createUser(mail,nom,prenom);
+     if(!vfDatabase.createUser(mail,nom,prenom))
+     {
+         QMessageBox BoiteMessage;
+         BoiteMessage.setText("Utilisateur déjà existant.");
+         BoiteMessage.exec();
+     }
       QDir dir;
       dir.mkdir("usr/"+mail);
     }

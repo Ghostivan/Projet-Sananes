@@ -43,7 +43,7 @@ void VisioFaceDB::setDatabase(QString _name, QString _host, QString _username, Q
 }
 
 
-void VisioFaceDB::createUser(QString _mail, QString _nom, QString _prenom )
+bool VisioFaceDB::createUser(QString _mail, QString _nom, QString _prenom )
 {
     if( !db.open() )
     {
@@ -55,19 +55,35 @@ void VisioFaceDB::createUser(QString _mail, QString _nom, QString _prenom )
 
         QSqlQuery qry;
         qDebug() << "INSERT INTO user (id, nom, prenom, mail) VALUES ('', '"+_nom+"', '"+_prenom+"', '"+_mail+"')";
-        qry.prepare("INSERT INTO user (id, nom, prenom, mail) VALUES ('', '"+_nom+"', '"+_prenom+"', '"+_mail+"')");
-        if( !qry.exec() )
-        {
-            qDebug() << qry.lastError();
+        QList<User> list = db.getAllUser();
+        bool bUserExist=false;
+        foreach (User usr, list) {
+            if(usr.mail==_mail)
+            {
+               bUserExist=true;
+               return false;
+            }
         }
-        else
+        if(bUserExist==false)
         {
-          qDebug( "User inserer dans la bdd." );
+            qry.prepare("INSERT INTO user (id, nom, prenom, mail) VALUES ('', '"+_nom+"', '"+_prenom+"', '"+_mail+"')");
+            if( !qry.exec() )
+            {
+                qDebug() << qry.lastError();
+            }
+            else
+            {
+              qDebug( "User inserer dans la bdd." );
+              return true;
+            }
         }
+
+
     }
 }
 QList<User> VisioFaceDB::getAllUser(){
     QList<User> listUser;
+
     if( !db.open() )
     {
         qDebug() << db.lastError();
