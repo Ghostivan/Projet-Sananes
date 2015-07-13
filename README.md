@@ -16,7 +16,7 @@ Logiciel de reconnaissance faciale
 - Réaliser la vue choisir un compte (Menu déroulant) [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) IVAN - Terminé
 - Créer la base de données [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) IVAN & RACHID- Terminé
 - Création d'un compte avec nom du dossier [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) IVAN - Terminé
-- Créer le controleur pour s'inscrire [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID - Terminé
+- Créer le controleur pour s'inscrire [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) RACHID - Terminé
 - Ajout d'un compte en BDD [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) RACHID - Terminé
 - Vérification d'ajout en BDD et apparaît dans la vue liste déroulante [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) IVAN - Terminé
 - Prise de photo via OPEN CV dans l'application [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - Vendredi 17 Juillet
