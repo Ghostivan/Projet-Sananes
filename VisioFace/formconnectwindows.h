@@ -13,6 +13,7 @@
 #include <QtGui>
 #include <QStringList>
 #include <QByteArray>
+#include <QList>
 
 namespace Ui {
 class FormConnectWindows;
@@ -27,7 +28,8 @@ public:
     ~FormConnectWindows();
 
 private slots:
-    void readJson();
+    void displayUsers();
+    //void readJson();
     void on_pushButton_clicked();
 
 private:

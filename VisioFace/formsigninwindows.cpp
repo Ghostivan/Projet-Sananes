@@ -2,7 +2,7 @@
 #include "ui_formsigninwindows.h"
 #include "visiofacedb.h"
 #include <QMessageBox>
-
+#include <QDir>
 
 FormSignInWindows::FormSignInWindows(QWidget *parent) :
     QDialog(parent),
@@ -25,7 +25,7 @@ void FormSignInWindows::on_btnCreate_clicked()
 {
     QString nom= ui->liedNom->text();
     QString prenom = ui->liedPrenom->text();
-    QString mail = ui->liedPrenom->text();
+    QString mail = ui->liedMail->text();
 
     QString dbname="visioface";
     QString host="localhost";
@@ -45,6 +45,8 @@ void FormSignInWindows::on_btnCreate_clicked()
       qDebug("non null");
       vfDatabase.createDatabase(dbname,host ,user,mdp);
       vfDatabase.createUser(mail,nom,prenom);
+      QDir dir;
+      dir.mkdir("usr/"+mail);
     }
 
 

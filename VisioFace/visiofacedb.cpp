@@ -1,5 +1,7 @@
 #include "visiofacedb.h"
 #include <QtSql>
+#include <QList>
+#include "user.h"
 
 // Init Database
 /*
@@ -30,8 +32,6 @@ void VisioFaceDB::createDatabase(QString _name, QString _host, QString _username
     db.setDatabaseName(_name);
     db.setUserName(_username);
     db.setPassword(_password);
-
-
 }
 
 void VisioFaceDB::setDatabase(QString _name, QString _host, QString _username, QString _password)
@@ -52,8 +52,10 @@ void VisioFaceDB::createUser(QString _mail, QString _nom, QString _prenom )
     }
     else
     {
+
         QSqlQuery qry;
-        qry.prepare( "INSERT INTO user (id, nom, prenom, mail) VALUES (null, '"+_nom+"', '"+_prenom+"', '"+_mail+"')" );
+        qDebug() << "INSERT INTO user (id, nom, prenom, mail) VALUES ('', '"+_nom+"', '"+_prenom+"', '"+_mail+"')";
+        qry.prepare("INSERT INTO user (id, nom, prenom, mail) VALUES ('', '"+_nom+"', '"+_prenom+"', '"+_mail+"')");
         if( !qry.exec() )
         {
             qDebug() << qry.lastError();
@@ -62,8 +64,29 @@ void VisioFaceDB::createUser(QString _mail, QString _nom, QString _prenom )
         {
           qDebug( "User inserer dans la bdd." );
         }
-
     }
-
+}
+QList<User> VisioFaceDB::getAllUser(){
+    QList<User> listUser;
+    if( !db.open() )
+    {
+        qDebug() << db.lastError();
+        qFatal( "Failed to connect." );
+        return listUser;
+    }
+    else
+    {
+        QSqlQuery qry;
+        qry.exec("SELECT * FROM user");
+        while(qry.next()) {
+            int id = qry.value(0).toInt();
+            QString lastName = qry.value(1).toString();
+            QString firstName = qry.value(2).toString();
+            QString mail = qry.value(3).toString();
+            qDebug() << "\nID" << id <<"\nFirst Name: " << firstName << "\nLast Name:" << lastName << "\nMail" << mail;
+            listUser.append(User(id,lastName,firstName,mail));
+        }
+        return listUser;
+    }
 }
 

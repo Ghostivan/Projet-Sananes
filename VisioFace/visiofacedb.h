@@ -5,6 +5,8 @@
 #include <QtSql/QSqlQuery>
 #include <QtSql/QSqlError>
 #include <QDebug>
+#include <QList>
+#include "user.h"
 
 using namespace std;
 class VisioFaceDB
@@ -21,6 +23,7 @@ public:
     /* Methods */
     void createDatabase(QString _name, QString _host, QString _username, QString _password);
     void createUser(QString _mail, QString _nom, QString _prenom);
+    QList<User> getAllUser();
     void setDatabase(QString _name, QString _host, QString _username, QString _password);
 
 };

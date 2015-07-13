@@ -19,12 +19,14 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     visiofacedb.cpp \
     formconnectwindows.cpp \
-    formsigninwindows.cpp
+    formsigninwindows.cpp \
+    user.cpp
 
 HEADERS  += mainwindow.h \
     visiofacedb.h \
     formconnectwindows.h \
-    formsigninwindows.h
+    formsigninwindows.h \
+    user.h
 
 FORMS    += mainwindow.ui \
     formconnectwindows.ui \
