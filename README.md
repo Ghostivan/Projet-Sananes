@@ -21,8 +21,8 @@ Logiciel de reconnaissance faciale
 - Vérification d'ajout en BDD et apparaît dans la vue liste déroulante [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) IVAN - Terminé
 - Prise de photo via OPEN CV dans l'application [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - Vendredi 17 Juillet
 - Comparaison d'une image avec plusieurs pour la reconnaissance [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) THIBAULT - Terminé
-- Vérification de la conformité avec la marge d'erreur sur la reconnaissance [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - Dimanche 12 Juillet
-- Intégration de la reconnaissance via le workflow prévu [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - Dimanche 12 Juillet
+- Vérification de la conformité avec la marge d'erreur sur la reconnaissance [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - En Retard
+- Intégration de la reconnaissance via le workflow prévu [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - En Retard
 - Connexion utilisateur via l'authentification visuelle [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) THIBAULT - Vendredi 17 Juillet
 
 ## Déploiement
