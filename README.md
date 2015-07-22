@@ -27,6 +27,6 @@ Logiciel de reconnaissance faciale
 
 ## Déploiement
 - Package de l'application [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID & IVAN  - En Retard - Evolution
-- Vérification fonctionnelle de l'application sous Mac OS X [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) RACHID & IVAN  - En Retard - Evolution
+- Vérification fonctionnelle de l'application sous Mac OS X [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png) RACHID & IVAN  - En Retard - Evolution
 - Vérification fonctionnelle de l'application sous Windows 7 et 8 [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png) RACHID & IVAN  - Terminé
-- Vérification fonctionnnelle de l'application sous Linux (Distribution Ubuntu ou Debian par exemple) [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png) RACHID & IVAN  - En Retard - Evolution
+- Vérification fonctionnnelle de l'application sous Linux (Distribution Ubuntu ou Debian par exemple) [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png) RACHID & IVAN  - En Retard - Evolution
